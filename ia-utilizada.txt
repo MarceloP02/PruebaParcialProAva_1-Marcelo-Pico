@@ -1,0 +1,109 @@
+La IA utlizada: GEMINI
+Version de IA utilizada: Pro (Estudiantil)
+Prompt utlizado: 
+
+Actúa como un desarrollador senior experto en Java y programación concurrente. 
+He desarrollado una solución para una evaluación donde debo procesar una matriz de Strings para calcular, 
+de manera concurrente, la frecuencia de aparición de un término específico.
+Por favor, revisa el código que te adjunto al final y evalúalo estrictamente bajo estos requerimientos técnicos:
+1. Implementación de hilos: ¿Utilicé correctamente Thread, la interfaz Runnable o Lambdas para definir las unidades de trabajo?
+2. Sincronización:¿El hilo principal está esperando correctamente a que todos los hilos finalicen antes de consolidar el 
+resultado global? 
+3. Comunicación: ¿Cada hilo está recibiendo sus datos (fila/columna y palabra buscada) y 
+devolviendo su conteo parcial adecuadamente para que el hilo principal sume el total? 
+4. Gestión de excepciones: ¿Está implementado el manejo adecuado de excepciones (como InterruptedException)?
+Dame un informe detallado de las fortalezas de mi código y señala si detectas condiciones de carrera (race conditions), 
+cuellos de botella o malas prácticas. Finalmente, muéstrame cómo se vería una versión refactorizada que cumpla 
+con todos los requisitos y genere la salida en consola solicitada (mostrando el término buscado, el reporte de cada 
+hilo finalizado y el total exacto).
+
+Aquí está mi código: Cree una clase Tarea (package ec.utpl.computacion.proava.parcial;
+
+public class Tarea extends Thread {
+
+    private String[] fila;
+
+    private String palabraBuscada;
+
+    private int indice;
+
+    private int resultado;
+
+    public Tarea(String[] fila, String palabraBuscada, int indice) {
+
+        this.fila = fila;
+
+        this.palabraBuscada = palabraBuscada;
+
+        this.indice = indice;
+
+    }
+    @Override
+
+    public void run() {
+
+        resultado = 0;
+
+        for (String celda : fila) {
+
+            if (celda.equalsIgnoreCase(palabraBuscada))
+
+                resultado++;
+
+        }
+        System.out.println("Hilonumero-" + indice + " ha finalizado. Se encontro: " + resultado);
+    }
+    public int getResultado() {
+
+        return resultado;
+    }
+
+}) y aqui esta el main (package ec.utpl.computacion.proava.parcial;
+
+public class App {
+
+    public static void main(String[] args) {
+
+        String[][] matriz = {
+
+            {"Marcelo", "Lenin", "Marcelo"},
+
+            {"Adrian",  "Marcelo",   "Pedro"},
+
+            {"Marcelo", "Jefferson",   "Marcelo"}
+
+        };
+        String palabraBuscada = "Marcelo";
+        int filas = matriz.length;
+        Tarea[] hilos = new Tarea[filas];
+        System.out.println("Buscando mi nombre dentro de mi matriz: \"" + palabraBuscada + "\"");
+        for (int i = 0; i < filas; i++) {
+
+            hilos[i] = new Tarea(matriz[i], palabraBuscada, i);
+
+            hilos[i].start();
+
+        }
+        for (Tarea hilo : hilos) {
+
+            try {
+
+                hilo.join();
+
+            } catch (InterruptedException e) {
+
+                e.printStackTrace();
+
+            }
+
+        }
+        int total = 0;
+
+        for (Tarea hilo : hilos) {
+
+            total += hilo.getResultado();
+
+        }
+        System.out.println("Un total de " + total + " veces salio el nombre " + palabraBuscada);
+    }
+})
