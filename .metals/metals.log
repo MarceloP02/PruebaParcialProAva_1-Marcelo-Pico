@@ -1,0 +1,497 @@
+2026.05.14 07:39:52 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico' for client Visual Studio Code 1.120.0.
+2026.05.14 07:39:52 INFO  Memory monitor started
+2026.05.14 07:39:54 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.14 07:39:58 INFO  running 'C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin\java.exe -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial -Dmaven.home=C:\Users\USUARIO\AppData\Local\Temp\metals1846795396502071354 -cp C:\Users\USUARIO\AppData\Local\Temp\metals1846795396502071354\maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.3:bloopInstall -DdownloadSources=true'
+2026.05.14 07:39:58 ERROR WARNING: A restricted method in java.lang.System has been called
+2026.05.14 07:39:58 ERROR WARNING: java.lang.System::load has been called by org.fusesource.jansi.internal.JansiLoader in an unnamed module (file:/C:/Users/USUARIO/.m2/wrapper/dists/apache-maven-3.9.9-bin/33b4b2b4/apache-maven-3.9.9/lib/jansi-2.4.1.jar)
+2026.05.14 07:39:58 ERROR WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+2026.05.14 07:39:58 ERROR WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+2026.05.14 07:39:58 ERROR 
+2026.05.14 07:39:58 ERROR WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+2026.05.14 07:39:58 ERROR WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/USUARIO/.m2/wrapper/dists/apache-maven-3.9.9-bin/33b4b2b4/apache-maven-3.9.9/lib/guava-33.2.1-jre.jar)
+2026.05.14 07:39:58 ERROR WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+2026.05.14 07:39:58 ERROR WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+may 14, 2026 7:40:02 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.05.14 07:40:02 INFO  [INFO] Scanning for projects...
+2026.05.14 07:40:02 INFO  [INFO] 
+2026.05.14 07:40:02 INFO  [INFO] ----------< ec.utpl.computacion.proava.parcial:pruebaparcial >----------
+2026.05.14 07:40:02 INFO  [INFO] Building pruebaparcial 1.0
+2026.05.14 07:40:02 INFO  [INFO]   from pom.xml
+2026.05.14 07:40:02 INFO  [INFO] --------------------------------[ jar ]---------------------------------
+2026.05.14 07:40:02 INFO  [INFO] 
+2026.05.14 07:40:02 INFO  [INFO] --- bloop:2.0.3:bloopInstall (default-cli) @ pruebaparcial ---
+2026.05.14 07:40:04 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies
+2026.05.14 07:40:04 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies
+2026.05.14 07:40:04 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = false)
+2026.05.14 07:40:04 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = false)
+2026.05.14 07:40:04 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = true)
+2026.05.14 07:40:04 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = true)
+2026.05.14 07:40:04 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)
+2026.05.14 07:40:04 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)
+2026.05.14 07:40:04 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)
+2026.05.14 07:40:04 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)
+2026.05.14 07:40:04 INFO  [INFO] Generated .bloop\pruebaparcial.json
+2026.05.14 07:40:04 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = false)
+2026.05.14 07:40:04 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = false)
+2026.05.14 07:40:04 INFO  [INFO] Resolving artifact: junit:junit:jar:4.11:test (sources = true)
+2026.05.14 07:40:04 INFO  [INFO] SUCCESS: junit:junit:jar:4.11:test (sources = true)
+2026.05.14 07:40:04 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)
+2026.05.14 07:40:04 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)
+2026.05.14 07:40:04 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)
+2026.05.14 07:40:04 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)
+2026.05.14 07:40:04 INFO  [INFO] Generated .bloop\pruebaparcial-test.json
+2026.05.14 07:40:04 INFO  [INFO] ------------------------------------------------------------------------
+2026.05.14 07:40:04 INFO  [INFO] BUILD SUCCESS
+2026.05.14 07:40:04 INFO  [INFO] ------------------------------------------------------------------------
+2026.05.14 07:40:04 INFO  [INFO] Total time:  2.327 s
+2026.05.14 07:40:04 INFO  [INFO] Finished at: 2026-05-14T07:40:04-05:00
+2026.05.14 07:40:04 INFO  [INFO] ------------------------------------------------------------------------
+2026.05.14 07:40:04 INFO  time: ran 'mvn bloopInstall' in 6.54s
+2026.05.14 07:40:04 INFO  Attempting to connect to the build server...
+2026.05.14 07:40:04 INFO  No running Bloop server found, starting one.
+2026.05.14 07:40:06 INFO  Starting compilation server
+2026.05.14 07:40:06 INFO  no build target found for C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial\src\test\java\ec\utpl\computacion\proava\parcial\AppTest.java. Using fallback presentation compiler.
+2026.05.14 07:40:07 INFO  no build target found for C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial\src\test\java\ec\utpl\computacion\proava\parcial\AppTest.java. Using fallback presentation compiler.
+may 14, 2026 7:40:07 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2
+2026.05.14 07:40:06 INFO  no build target found for C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial\src\test\java\ec\utpl\computacion\proava\parcial\AppTest.java. Using fallback presentation compiler.
+2026.05.14 07:40:08 INFO  no build target found for C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial\src\test\java\ec\utpl\computacion\proava\parcial\AppTest.java. Using fallback presentation compiler.
+2026.05.14 07:40:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\.metals\bsp.trace.json or C:\Users\USUARIO\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.05.14 07:40:09 INFO  time: Connected to build server in 5.13s
+2026.05.14 07:40:09 INFO  Connected to Build server: Bloop v2.0.19
+2026.05.14 07:40:10 INFO  time: Imported build in 0.17s
+2026.05.14 07:40:11 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.14 07:40:11 INFO  time: indexed workspace in 1.93s
+2026.05.14 07:40:12 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:40:13 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:40:13 INFO  compiling pruebaparcial-test (1 java source)
+2026.05.14 07:40:13 INFO  time: compiled pruebaparcial in 1.78s
+2026.05.14 07:40:15 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:40:15 INFO  time: compiled pruebaparcial-test in 1.18s
+may 14, 2026 7:41:18 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+2026.05.14 07:44:33 INFO  compiling pruebaparcial (1 java source)
+may 14, 2026 7:44:33 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 118
+2026.05.14 07:44:34 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:44:34 INFO  time: compiled pruebaparcial in 1.17s
+2026.05.14 07:44:37 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:44:38 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:44:38 INFO  time: compiled pruebaparcial in 1.11s
+2026.05.14 07:44:48 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:44:48 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:44:50 INFO  time: compiled pruebaparcial in 1.03s
+may 14, 2026 7:45:25 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 285
+2026.05.14 07:46:34 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:46:34 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:46:35 INFO  time: compiled pruebaparcial in 1s
+2026.05.14 07:46:48 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:46:48 WARN  Could not load snapshot text for C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial\src\main\java\ec\utpl\computacion\proava\parcial\App.java
+2026.05.14 07:46:48 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:46:48 INFO  time: compiled pruebaparcial in 0.99s
+2026.05.14 07:46:52 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:46:53 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:46:53 INFO  time: compiled pruebaparcial in 1.08s
+2026.05.14 07:46:58 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:46:58 WARN  Could not load snapshot text for C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial\src\main\java\ec\utpl\computacion\proava\parcial\App.java
+2026.05.14 07:46:59 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:46:59 INFO  time: compiled pruebaparcial in 1.22s
+2026.05.14 07:47:14 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:47:14 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:47:15 INFO  time: compiled pruebaparcial in 1.01s
+may 14, 2026 7:47:45 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 673
+may 14, 2026 7:47:45 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 677
+may 14, 2026 7:47:47 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 702
+2026.05.14 07:47:58 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:47:58 WARN  Could not load snapshot text for C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial\src\main\java\ec\utpl\computacion\proava\parcial\App.java
+2026.05.14 07:47:58 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:47:59 INFO  time: compiled pruebaparcial in 1s
+may 14, 2026 7:48:03 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 794
+may 14, 2026 7:48:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 818
+may 14, 2026 7:48:10 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 831
+may 14, 2026 7:48:26 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 891
+may 14, 2026 7:48:26 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 892
+may 14, 2026 7:48:26 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 893
+2026.05.14 07:48:30 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:48:30 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:48:30 INFO  time: compiled pruebaparcial in 0.99s
+2026.05.14 07:55:18 INFO  Shutting down server
+2026.05.14 07:55:18 INFO  Memory monitor stopped
+2026.05.14 07:55:18 INFO  shutting down Metals
+2026.05.14 07:55:18 INFO  Shut down connection with build server.
+2026.05.14 07:55:18 INFO  Exiting server
+2026.05.14 07:55:31 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico' for client Visual Studio Code 1.120.0.
+2026.05.14 07:55:31 INFO  Memory monitor started
+2026.05.14 07:55:32 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.14 07:55:32 INFO  no build target found for C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial\src\main\java\ec\utpl\computacion\proava\parcial\Tarea.java. Using fallback presentation compiler.
+2026.05.14 07:55:34 INFO  no build target found for C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial\src\main\java\ec\utpl\computacion\proava\parcial\Tarea.java. Using fallback presentation compiler.
+2026.05.14 07:55:34 INFO  Attempting to connect to the build server...
+2026.05.14 07:55:34 INFO  Found a Bloop server running
+2026.05.14 07:55:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\.metals\bsp.trace.json or C:\Users\USUARIO\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.05.14 07:55:35 INFO  time: Connected to build server in 0.68s
+2026.05.14 07:55:35 INFO  Connected to Build server: Bloop v2.0.19
+2026.05.14 07:55:35 INFO  time: Imported build in 0.15s
+2026.05.14 07:55:38 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.14 07:55:38 INFO  time: indexed workspace in 4.04s
+may 14, 2026 7:55:40 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3
+may 14, 2026 7:55:40 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2
+may 14, 2026 7:55:40 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 4
+may 14, 2026 7:55:40 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 8
+may 14, 2026 7:55:40 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 7
+may 14, 2026 7:55:40 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 5
+may 14, 2026 7:55:40 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 10
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 14
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 15
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 20
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 21
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 13
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 22
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 23
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 25
+may 14, 2026 7:55:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 28
+may 14, 2026 7:55:43 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 27
+may 14, 2026 7:55:43 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 29
+may 14, 2026 7:55:43 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 33
+may 14, 2026 7:55:43 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 34
+may 14, 2026 7:55:44 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 36
+may 14, 2026 7:56:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 56
+may 14, 2026 7:56:38 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 76
+may 14, 2026 7:56:50 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 118
+may 14, 2026 7:56:53 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 151
+may 14, 2026 7:56:57 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 180
+may 14, 2026 7:56:58 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 196
+2026.05.14 07:57:13 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:57:13 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:57:14 INFO  time: compiled pruebaparcial in 1.03s
+may 14, 2026 7:58:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 302
+may 14, 2026 7:58:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 300
+may 14, 2026 7:58:09 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 303
+may 14, 2026 7:58:10 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 314
+may 14, 2026 7:58:11 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 324
+may 14, 2026 7:58:11 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 329
+may 14, 2026 7:58:13 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 341
+may 14, 2026 7:58:13 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 342
+may 14, 2026 7:58:13 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 345
+may 14, 2026 7:58:13 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 347
+may 14, 2026 7:58:13 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 348
+may 14, 2026 7:58:13 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 351
+may 14, 2026 7:58:15 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 373
+may 14, 2026 7:58:16 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 387
+may 14, 2026 7:58:18 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 435
+may 14, 2026 7:58:19 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 449
+may 14, 2026 7:58:21 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 475
+may 14, 2026 7:58:21 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 478
+may 14, 2026 7:58:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 488
+may 14, 2026 7:58:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 492
+may 14, 2026 7:58:22 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 495
+may 14, 2026 7:58:23 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 499
+may 14, 2026 7:58:24 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 513
+may 14, 2026 7:58:24 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 526
+may 14, 2026 7:58:27 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 539
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 540
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 542
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 543
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 544
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 545
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 546
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 547
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 548
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 549
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 550
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 551
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 552
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 553
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 555
+may 14, 2026 7:58:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 557
+may 14, 2026 7:59:15 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 603
+may 14, 2026 7:59:29 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 666
+may 14, 2026 7:59:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 668
+may 14, 2026 7:59:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 669
+may 14, 2026 7:59:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 670
+may 14, 2026 7:59:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 671
+may 14, 2026 7:59:30 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 672
+2026.05.14 07:59:31 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:59:31 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:59:31 INFO  time: compiled pruebaparcial in 0.97s
+2026.05.14 07:59:39 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 07:59:39 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 07:59:40 INFO  time: compiled pruebaparcial in 1s
+2026.05.14 08:01:13 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:01:14 WARN  javac exited with exit code 1
+2026.05.14 08:01:14 INFO  time: compiled pruebaparcial in 1.04s
+may 14, 2026 8:03:44 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1090
+may 14, 2026 8:03:44 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1091
+2026.05.14 08:03:55 INFO  Created report: Optional[file:///C:/Users/USUARIO/Desktop/PruebaParcialProAva_1-Marcelo-Pico/pruebaparcial/src/main/java/ec/utpl/computacion/proava/parcial/App.java]
+2026.05.14 08:03:55 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\.metals\.reports\metals-full\2026-05-14\r_empty-definition_(pruebaparcial)_08-03-55-418.md")
+may 14, 2026 8:04:50 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1261
+2026.05.14 08:05:09 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:05:09 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 08:05:10 INFO  time: compiled pruebaparcial in 1.03s
+may 14, 2026 8:05:35 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1435
+2026.05.14 08:05:37 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:05:37 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 08:05:37 INFO  time: compiled pruebaparcial in 0.97s
+may 14, 2026 8:05:44 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1456
+may 14, 2026 8:06:04 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1559
+2026.05.14 08:06:31 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:06:31 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 08:06:31 INFO  time: compiled pruebaparcial in 0.97s
+may 14, 2026 8:06:35 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1626
+may 14, 2026 8:06:54 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1662
+may 14, 2026 8:07:31 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1728
+may 14, 2026 8:07:45 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1772
+may 14, 2026 8:07:47 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1792
+may 14, 2026 8:07:47 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 1802
+2026.05.14 08:07:52 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:07:52 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 08:07:52 INFO  time: compiled pruebaparcial in 0.98s
+2026.05.14 08:08:13 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:08:13 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 08:08:13 INFO  time: compiled pruebaparcial in 0.97s
+2026.05.14 08:12:11 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:12:12 WARN  Could not load snapshot text for C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\pruebaparcial\src\main\java\ec\utpl\computacion\proava\parcial\App.java
+2026.05.14 08:12:11 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 08:12:11 INFO  time: compiled pruebaparcial in 1s
+may 14, 2026 8:16:47 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2378
+may 14, 2026 8:16:49 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2401
+may 14, 2026 8:16:49 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2409
+may 14, 2026 8:16:51 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2442
+may 14, 2026 8:16:54 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2475
+may 14, 2026 8:16:58 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2515
+may 14, 2026 8:16:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2517
+may 14, 2026 8:16:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2518
+may 14, 2026 8:16:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2519
+may 14, 2026 8:16:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2520
+may 14, 2026 8:16:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2521
+may 14, 2026 8:16:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2522
+may 14, 2026 8:16:59 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2529
+may 14, 2026 8:19:26 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2574
+may 14, 2026 8:19:26 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2577
+may 14, 2026 8:19:26 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2580
+may 14, 2026 8:19:27 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2584
+2026.05.14 08:19:33 INFO  Created report: Optional[file:///C:/Users/USUARIO/Desktop/PruebaParcialProAva_1-Marcelo-Pico/pruebaparcial/src/main/java/ec/utpl/computacion/proava/parcial/App.java]
+2026.05.14 08:19:33 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\.metals\.reports\metals-full\2026-05-14\r_empty-definition_(pruebaparcial)_08-19-33-771.md")
+2026.05.14 08:19:34 INFO  empty definition using pc, found symbol in pc:  (full report at: "C:\Users\USUARIO\Desktop\PruebaParcialProAva_1-Marcelo-Pico\.metals\.reports\metals-full\2026-05-14\r_empty-definition_(pruebaparcial)_08-19-33-771.md")
+may 14, 2026 8:19:41 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2657
+may 14, 2026 8:19:42 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2669
+2026.05.14 08:19:51 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:19:51 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 08:19:52 INFO  time: compiled pruebaparcial in 1.03s
+2026.05.14 08:20:34 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:20:35 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 08:20:35 INFO  time: compiled pruebaparcial in 1.11s
+2026.05.14 08:20:50 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:20:50 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 08:20:50 INFO  time: compiled pruebaparcial in 0.99s
+may 14, 2026 8:21:23 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2797
+may 14, 2026 8:21:38 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2863
+2026.05.14 08:21:40 INFO  compiling pruebaparcial (1 java source)
+2026.05.14 08:21:40 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/USUARIO/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.05.14 08:21:41 INFO  time: compiled pruebaparcial in 1.01s
+may 14, 2026 8:22:35 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 2895
+may 14, 2026 8:29:07 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3048
+may 14, 2026 8:29:14 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3068
+may 14, 2026 8:31:26 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3085
+may 14, 2026 8:31:26 A. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+ADVERTENCIA: Unmatched cancel notification for request id 3086

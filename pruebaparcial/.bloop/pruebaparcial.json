@@ -1,0 +1,144 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "pruebaparcial",
+        "directory": "C:\\Users\\USUARIO\\Desktop\\PruebaParcialProAva_1-Marcelo-Pico\\pruebaparcial",
+        "workspaceDir": "C:\\Users\\USUARIO\\Desktop\\PruebaParcialProAva_1-Marcelo-Pico\\pruebaparcial",
+        "sources": [
+            "C:\\Users\\USUARIO\\Desktop\\PruebaParcialProAva_1-Marcelo-Pico\\pruebaparcial\\src\\main\\java"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\USUARIO\\Desktop\\PruebaParcialProAva_1-Marcelo-Pico\\pruebaparcial\\target\\classes"
+        ],
+        "out": "C:\\Users\\USUARIO\\Desktop\\PruebaParcialProAva_1-Marcelo-Pico\\pruebaparcial\\target",
+        "classesDir": "C:\\Users\\USUARIO\\Desktop\\PruebaParcialProAva_1-Marcelo-Pico\\pruebaparcial\\target\\classes",
+        "resources": [
+            "C:\\Users\\USUARIO\\Desktop\\PruebaParcialProAva_1-Marcelo-Pico\\pruebaparcial\\src\\main\\resources"
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "-target",
+                "25",
+                "-source",
+                "25",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "mill.testng.TestNGFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.2.10-hotspot",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest-core",
+                    "version": "1.3",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest-core",
+                            "path": "C:\\Users\\USUARIO\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3.jar"
+                        },
+                        {
+                            "name": "hamcrest-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\USUARIO\\.m2\\repository\\org\\hamcrest\\hamcrest-core\\1.3\\hamcrest-core-1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "junit",
+                    "name": "junit",
+                    "version": "4.11",
+                    "artifacts": [
+                        {
+                            "name": "junit",
+                            "path": "C:\\Users\\USUARIO\\.m2\\repository\\junit\\junit\\4.11\\junit-4.11.jar"
+                        },
+                        {
+                            "name": "junit",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\USUARIO\\.m2\\repository\\junit\\junit\\4.11\\junit-4.11-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
